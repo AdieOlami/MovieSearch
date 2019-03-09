@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (4.8.1)
+  - EVReflection/Alamofire (5.10.0):
+    - Alamofire
+    - EVReflection/Core
+  - EVReflection/Core (5.10.0)
+  - netfox (1.15.0)
+  - R.swift (5.0.2):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.0)
+  - RxAlamofire (4.3.0):
+    - RxAlamofire/Core (= 4.3.0)
+  - RxAlamofire/Core (4.3.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxGesture (2.1.0):
+    - RxCocoa (~> 4.4.0)
+    - RxSwift (~> 4.4.0)
+  - RxKeyboard (0.9.0):
+    - RxCocoa (>= 4.3.1)
+    - RxSwift (>= 4.3.1)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - EVReflection/Alamofire
+  - netfox
+  - R.swift
+  - RxAlamofire
+  - RxCocoa
+  - RxGesture
+  - RxKeyboard
+  - RxSwift
+  - RxSwiftExt
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - EVReflection
+    - netfox
+    - R.swift
+    - R.swift.Library
+    - RxAlamofire
+    - RxAtomic
+    - RxCocoa
+    - RxGesture
+    - RxKeyboard
+    - RxSwift
+    - RxSwiftExt
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  EVReflection: 1abc1a81927ab0d30170238cf9b79bff489e9728
+  netfox: 6ddcca687ad0a58550054fea481cb487461b5e0c
+  R.swift: 81455d81467763cbd3f4d79d938d05f4ac4c0228
+  R.swift.Library: 0bf390e729bc10bb2c9e4fb78bd043164a7be4ff
+  RxAlamofire: 09624d0f2d48ed8b686e4eb4cf68e28cbd2df556
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxGesture: 7f6dfb45dbde06e618c24442d38493e3144f2c95
+  RxKeyboard: 4f782303f499f41577b41c96c6a9a5d7acd51a47
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+
+PODFILE CHECKSUM: 981aea50c6fc85a150a317c45e48fdd7896ad5ad
+
+COCOAPODS: 1.6.0.beta.2

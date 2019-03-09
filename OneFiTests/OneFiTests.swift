@@ -7,28 +7,60 @@
 //
 
 import XCTest
+import RxCocoa
+import RxSwift
+
 @testable import OneFi
 
 class OneFiTests: XCTestCase {
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-
+    
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testMovie() {
+        let expec = expectation(description: "Search Movie Code")
+        let presenter =  MoviePresenter(view: MovieTestVC(expectation: expec), source: Repository.instance)
+        presenter.getMovies(title: "Batman", year: 2013)
+        wait(for: [expec], timeout: 30)
     }
-
+    
     func testPerformanceExample() {
-        // This is an example of a performance test case.
         self.measure {
-            // Put the code you want to measure the time of here.
         }
     }
 
+
+}
+
+
+class MovieTestVC: MovieContract.View {
+    func setProgress(enabled: Bool) {
+        
+    }
+    
+    func showMovies(_ movie: [Movie]) {
+        
+    }
+    
+    func didFail(fail: Bool) {
+        
+    }
+    
+    func didShowError(error: Error) {
+        
+    }
+    
+    func didShowStatusCode(code: Int?) {
+        XCTAssertGreaterThan(200, code ?? 0)
+        self.expec.fulfill()
+    }
+    
+    var expec: XCTestExpectation
+    init(expectation: XCTestExpectation) {
+        self.expec = expectation
+    }
+    
 }

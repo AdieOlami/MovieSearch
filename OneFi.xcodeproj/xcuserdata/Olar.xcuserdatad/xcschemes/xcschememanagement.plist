@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OneFi Staging.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>OneFi.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E740F67A22311C2700431D6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E740F68E22311C2A00431D6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E740F69922311C2A00431D6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
